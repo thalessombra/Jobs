@@ -1,0 +1,45 @@
+@media (max-width: 37.5rem)
+
+
+{ 
+    #container {
+        flex-direction: column;
+    }
+    #user-info {
+        order: 1; 
+        margin-bottom: 1.25rem;
+    }
+    #update-form { 
+        max-width:100%;
+        order:2;
+    }
+    form .user-details .input-box {
+        width: 100%;
+    }
+    #container form .user-details{
+        max-height: 18.75rem;
+        overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar { 
+        width: 0;
+    }
+
+}
+
+@media (min-width: 37.5rem) {
+#user-info {
+    margin-top: 3.75rem;
+    padding:1.5625rem;
+}
+#user-info p {
+    font-weight: 500;
+    margin-top:.3125rem;
+    padding-top:.625rem;
+    font-size:1.125rem;
+}
+#update-form {
+    margin-right:.9375rem;
+    
+}
+
+}
